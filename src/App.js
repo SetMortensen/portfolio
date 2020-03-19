@@ -55,10 +55,10 @@ function App() {
         <footer>
           <div className="container">
             <div className="row">
-              <div className="col-sm-9 col-md-7 col-lg-6">
+              <div className="col-7 col-sm-9 col-md-7 col-lg-6">
                 &copy; Артём Тимченко, 2020. Site is working on ReactJs.
               </div>
-              <div className="col-sm-3 col-md-5 col-lg-6">
+              <div className="col-5 col-sm-3 col-md-5 col-lg-6">
                 <div className="social-icons">
                   <a href="https://join.skype.com/invite/aDipL07GmZgC" target="_blank" className="social-link">
                     <img src={skype} alt="skype"/>

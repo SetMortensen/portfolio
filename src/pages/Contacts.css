@@ -25,4 +25,7 @@ img.about-image {
         display: block;
         max-width: 270px;
     }
+    a.certificate__link {
+        margin: 0 5px;
+    }
 }

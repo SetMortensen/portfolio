@@ -99,6 +99,16 @@ a.some-work__external-link {
     .some-work {
         margin-bottom: 15px;
     }
+    .some-work__info {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    img.some-work__image{
+        margin: 0 auto;
+        display: block;
+        max-width: 100%;
+        width: auto;
+    }
     .some-work__name {
         padding: 10px 15px;
         font-size: 14px;

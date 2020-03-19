@@ -17,12 +17,7 @@ h2 {
     }
 }
 @media (max-width: 575px){
-    img.some-work__image {
-        margin: 0 auto;
-        display: block;
-    }
-
-    img.detail-picture {
+        img.detail-picture {
         margin: 0 auto 15px;
         float: none;
         display: block;
