@@ -55,3 +55,41 @@ ol.special li {
     justify-content: center;
     height: 100%;
 }
+@media (max-width:991px){
+    ol.special {
+        margin-top: 30px;
+    }
+}
+@media (max-width:575px){
+    ol.special {
+        margin-top: 15px;
+        padding-left: 35px;
+    }
+
+    ol.special li:before {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+        left: -35px;
+    }
+
+    span.list-item__name {
+        font-size: 16px;
+        height: 16px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    ol.special li {
+        margin-bottom: 15px;
+    }
+
+    .social-panel__item {
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-panel__item img {
+        height: 16px;
+    }
+}

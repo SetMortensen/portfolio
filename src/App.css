@@ -58,7 +58,6 @@ section h1{
     text-align: center;
     color: #292f36;
     margin-bottom: 40px;
-    padding-left: 22px;
     position: relative;
     text-transform: uppercase;
     font-weight: 700;
@@ -111,6 +110,7 @@ section.special h2:before {
     background: none;
     padding-left: 0;
     font-family: 'Quattrocento Sans', sans-serif;
+    padding-top: 0;
 }
 footer {
     color: white;
@@ -130,4 +130,107 @@ a.social-link {
 }
 a.social-link img {
     display: block;
+}
+@media (max-width: 1199px){
+    section {
+        padding: 50px 0 75px;
+    }
+    section p:not(:last-child){
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:991px){
+    header {
+        padding: 15px 0;
+        height: 60px;
+    }
+    ul.top-menu a {
+        padding: 5px 10px;
+        margin: 0 10px;
+    }
+    section h1{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+    section h2{
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+    footer {
+        height: 75px;
+    }
+}
+@media (max-width: 767px){
+    html,body {
+        font-size: 14px;
+    }
+
+    ul.top-menu a {
+        text-transform: none;
+        border-width: 1px!important;
+        padding: 4px 10px;
+        margin: 0 5px;
+        display: block;
+    }
+    section{
+        font-size: 14px;
+        line-height: 24px;
+        padding: 30px 0 40px;
+    }
+    section h1 {
+        margin-bottom: 15px;
+        font-size: 28px;
+    }
+    section h2 {
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+    a.social-link {
+        margin: 0 5px;
+    }
+    footer {
+        height: 60px;
+    }
+    .breadcrumb{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 575px){
+    header {
+        height: auto;
+    }
+
+    img.logo {
+        height: 24px;
+        margin: 0 auto 10px;
+        display: block;
+    }
+
+    ul.top-menu {
+        justify-content: center;
+    }
+    .social-icons {
+        margin-top: 5px;
+    }
+
+    a.social-link img {
+        height: 18px;
+    }
+
+    footer {
+        height: 90px;
+    }
+    section {
+        line-height: 22px;
+    }
+    section h2 {
+        font-size: 20px;
+        padding-left: 12px;
+    }
+    section h2:before {
+        width: 7px;
+    }
+    section h1 {
+        font-size: 24px;
+    }
 }

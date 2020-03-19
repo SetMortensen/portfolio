@@ -16,3 +16,8 @@ img.step__image {
     font-weight: 700;
     color: #292f36;
 }
+@media (max-width:1199px){
+    img.step__image {
+        width: 40px;
+    }
+}

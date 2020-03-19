@@ -6,3 +6,26 @@ img.detail-picture {
 h2 {
     clear: both;
 }
+@media (max-width: 991px){
+    img.detail-picture {
+        margin: 0 20px 15px 0;
+    }
+}
+@media (max-width: 767px){
+    img.detail-picture {
+        max-width: 190px;
+    }
+}
+@media (max-width: 575px){
+    img.some-work__image {
+        margin: 0 auto;
+        display: block;
+    }
+
+    img.detail-picture {
+        margin: 0 auto 15px;
+        float: none;
+        display: block;
+        max-width: 100%;
+    }
+}

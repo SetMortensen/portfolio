@@ -13,7 +13,7 @@ export default function Steps(){
                     <div className="col-12">
                         <h2>Этапы работы</h2>
                     </div>
-                    <div className="col-xl-3">
+                    <div className="col-sm-6 col-lg-3">
                         <div className="step">
                             <img src={clock} alt="step-icon" className="step__image"/>
                             <div className="step__name text-center">Обсуждение</div>
@@ -23,7 +23,7 @@ export default function Steps(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3">
+                    <div className="col-sm-6 col-lg-3">
                         <div className="step">
                             <img src={pencil} alt="step-icon" className="step__image"/>
                             <div className="step__name text-center">Разработка</div>
@@ -32,7 +32,7 @@ export default function Steps(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3">
+                    <div className="col-sm-6 col-lg-3">
                         <div className="step">
                             <img src={mobile} alt="step-icon" className="step__image"/>
                             <div className="step__name text-center">Адаптация</div>
@@ -42,7 +42,7 @@ export default function Steps(){
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3">
+                    <div className="col-sm-6 col-lg-3">
                         <div className="step">
                             <img src={cogs} alt="step-icon" className="step__image"/>
                             <div className="step__name text-center">Интеграция</div>

@@ -40,3 +40,22 @@ span.skill-bar__value {
     box-shadow: 0 0 6px -3px #3a454d;
     transition: all 2s linear;
 }
+@media (max-width: 767px){
+    .skill-bar {
+        height: 36px;
+        line-height: 36px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 575px){
+    .skill-bar {
+        line-height: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    span.skill-bar__name {
+        padding: 0 10px;
+    }
+}

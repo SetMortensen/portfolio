@@ -14,7 +14,7 @@ export default function ShortInfo() {
                     <div className="col-12">
                         <h2>Краткая информация</h2>
                     </div>
-                    <div className="col-xl-6">
+                    <div className="col-lg-6">
                         <p>Тимченко Артём Вячеславович, родился 29 марта 1992 года в городе Славянске, Украина.
                             Ещё в школе заинтересовался web-разработкой, в частности html, css. Моей первой
                             работой была золотая полоса рейтинга Вконтакте с 1000+ голосов - естественно,
@@ -32,7 +32,7 @@ export default function ShortInfo() {
                             Сейчас я имею за плечами более 3х лет опыта в вёрстке, front-end и back-end
                             программировании.</p>
                     </div>
-                    <div className="col-xl-6">
+                    <div className="col-lg-6">
                         <ol className="special">
                             <li>
                                 <span className="list-item__name">Среднее образование</span>

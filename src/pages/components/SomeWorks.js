@@ -22,7 +22,7 @@ export default class SomeWorks extends React.Component{
     render(){
         let works = this.state.works;
         works = works.map((work,key)=>
-            <div className="col-xl-4" key={key}>
+            <div className="col-sm-6 col-lg-4" key={key}>
                 <div className="some-work">
                     <img src={work.image} alt={work.name} className="some-work__image"/>
                     <div className="some-work__info">
