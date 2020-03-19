@@ -41,10 +41,10 @@ export default function Skills() {
                                 <span className="skill-bar__name">WordPress</span>
                                 <span className="skill-bar__value">80%</span>
                             </div>
-                            <div className="skill-bar" data-value="80">
+                            <div className="skill-bar" data-value="85">
                                 <div className="skill-box__bg"></div>
                                 <span className="skill-bar__name">Bitrix</span>
-                                <span className="skill-bar__value">80%</span>
+                                <span className="skill-bar__value">85%</span>
                             </div>
                         </div>
                     </div>
