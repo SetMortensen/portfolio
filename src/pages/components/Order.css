@@ -1,0 +1,63 @@
+p.request__title {
+    color: #292f36;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+}
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 25px;
+}
+label span {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+label input, label textarea {
+    background: #eaeef1;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 17px;
+    width: 100%;
+    display: block;
+    max-width: unset;
+    font-size: 16px;
+    color: #3a454d;
+}
+label textarea {
+    height: 160px;
+    resize: none;
+}
+.form-wrapper {
+    padding: 25px 30px;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 100%;
+    background: white;
+}
+input[type="submit"] {
+    background: #23b7a4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 9px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Quattrocento Sans', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+input[type="submit"]:hover {
+    background: #3a454d;
+}
+img.order-bg {
+    margin-bottom: 30px;
+    width: 100%;
+    filter: brightness(0.5);
+}

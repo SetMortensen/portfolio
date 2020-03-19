@@ -1,0 +1,8 @@
+img.detail-picture {
+    float: left;
+    margin: 0 25px 30px 0;
+    max-width: 270px;
+}
+h2 {
+    clear: both;
+}
